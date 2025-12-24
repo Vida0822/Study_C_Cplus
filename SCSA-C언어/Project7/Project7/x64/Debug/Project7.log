@@ -1,0 +1,16 @@
+﻿  f7.c
+C:\STUDY\C_C++\Project7\Project7\f7.c(10,11): warning C4477: 'printf' : 서식 문자열 '%x'에 'unsigned int' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'int *'입니다.
+C:\STUDY\C_C++\Project7\Project7\f7.c(10,11): warning C4313: 'printf': 서식 문자열의 '%x'이(가) int *' 형식의 인수 1과(와) 충돌합니다.
+C:\STUDY\C_C++\Project7\Project7\f7.c(20,9): warning C4477: 'printf' : 서식 문자열 '%x'에 'unsigned int' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'int *'입니다.
+C:\STUDY\C_C++\Project7\Project7\f7.c(20,9): warning C4313: 'printf': 서식 문자열의 '%x'이(가) int *' 형식의 인수 1과(와) 충돌합니다.
+C:\STUDY\C_C++\Project7\Project7\f7.c(20,9): warning C4477: 'printf' : 서식 문자열 '%x'에 'unsigned int' 형식의 인수가 필요하지만 variadic 인수 2의 형식이 'int (*)[3]'입니다.
+C:\STUDY\C_C++\Project7\Project7\f7.c(20,9): warning C4313: 'printf': 서식 문자열의 '%x'이(가) int (*)[3]' 형식의 인수 2과(와) 충돌합니다.
+C:\STUDY\C_C++\Project7\Project7\f7.c(20,9): warning C4477: 'printf' : 서식 문자열 '%x'에 'unsigned int' 형식의 인수가 필요하지만 variadic 인수 3의 형식이 'int (*)[2][3]'입니다.
+C:\STUDY\C_C++\Project7\Project7\f7.c(20,9): warning C4313: 'printf': 서식 문자열의 '%x'이(가) int (*)[2][3]' 형식의 인수 3과(와) 충돌합니다.
+C:\STUDY\C_C++\Project7\Project7\f7.c(21,9): warning C4477: 'printf' : 서식 문자열 '%x'에 'unsigned int' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'int *'입니다.
+C:\STUDY\C_C++\Project7\Project7\f7.c(21,9): warning C4313: 'printf': 서식 문자열의 '%x'이(가) int *' 형식의 인수 1과(와) 충돌합니다.
+C:\STUDY\C_C++\Project7\Project7\f7.c(21,9): warning C4477: 'printf' : 서식 문자열 '%x'에 'unsigned int' 형식의 인수가 필요하지만 variadic 인수 2의 형식이 'int (*)[3]'입니다.
+C:\STUDY\C_C++\Project7\Project7\f7.c(21,9): warning C4313: 'printf': 서식 문자열의 '%x'이(가) int (*)[3]' 형식의 인수 2과(와) 충돌합니다.
+C:\STUDY\C_C++\Project7\Project7\f7.c(21,9): warning C4477: 'printf' : 서식 문자열 '%x'에 'unsigned int' 형식의 인수가 필요하지만 variadic 인수 3의 형식이 'int (*)[2][3]'입니다.
+C:\STUDY\C_C++\Project7\Project7\f7.c(21,9): warning C4313: 'printf': 서식 문자열의 '%x'이(가) int (*)[2][3]' 형식의 인수 3과(와) 충돌합니다.
+  Project7.vcxproj -> C:\STUDY\C_C++\Project7\x64\Debug\Project7.exe

@@ -1,0 +1,11 @@
+﻿  f6.c
+C:\STUDY\C_C++\Project5\Project5\f6.c(39,37): warning C4474: 'printf' : 서식 문자열에 전달된 인수가 너무 많습니다.
+      C:\STUDY\C_C++\Project5\Project5\f6.c(39,37):
+      자리 표시자 및 해당 매개 변수에는 variadic 인수가 1개 필요하지만 2개가 제공되었습니다.
+  
+C:\STUDY\C_C++\Project5\Project5\f6.c(40,40): warning C4474: 'printf' : 서식 문자열에 전달된 인수가 너무 많습니다.
+      C:\STUDY\C_C++\Project5\Project5\f6.c(40,40):
+      자리 표시자 및 해당 매개 변수에는 variadic 인수가 1개 필요하지만 2개가 제공되었습니다.
+  
+C:\STUDY\C_C++\Project5\Project5\f6.c(10,7): warning C4133: '초기화 중': 'char *'과(와) 'int *' 사이의 형식이 호환되지 않습니다.
+  Project5.vcxproj -> C:\STUDY\C_C++\Project5\x64\Debug\Project5.exe

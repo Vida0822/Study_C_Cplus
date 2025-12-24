@@ -1,0 +1,59 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\STUDY\\C_C\u002B\u002B\\Project1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{ED867859-4FDE-4445-B867-158F72D50EB8}|Project1\\Project1.vcxproj|C:\\STUDY\\C_C\u002B\u002B\\Project1\\Project1\\f2.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{ED867859-4FDE-4445-B867-158F72D50EB8}|Project1\\Project1.vcxproj|solutionrelative:Project1\\f2.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED867859-4FDE-4445-B867-158F72D50EB8}|Project1\\Project1.vcxproj|C:\\STUDY\\C_C\u002B\u002B\\Project1\\Project1\\f1.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{ED867859-4FDE-4445-B867-158F72D50EB8}|Project1\\Project1.vcxproj|solutionrelative:Project1\\f1.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "f1.c",
+              "DocumentMoniker": "C:\\STUDY\\C_C\u002B\u002B\\Project1\\Project1\\f1.c",
+              "RelativeDocumentMoniker": "Project1\\f1.c",
+              "ToolTip": "C:\\STUDY\\C_C\u002B\u002B\\Project1\\Project1\\f1.c",
+              "RelativeToolTip": "Project1\\f1.c",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAA0AAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2025-12-22T01:37:54.665Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "f2.c",
+              "DocumentMoniker": "C:\\STUDY\\C_C\u002B\u002B\\Project1\\Project1\\f2.c",
+              "RelativeDocumentMoniker": "Project1\\f2.c",
+              "ToolTip": "C:\\STUDY\\C_C\u002B\u002B\\Project1\\Project1\\f2.c",
+              "RelativeToolTip": "Project1\\f2.c",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2025-12-22T05:01:23.393Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
