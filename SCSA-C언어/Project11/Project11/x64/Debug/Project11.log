@@ -1,0 +1,5 @@
+﻿  f11.c
+C:\STUDY\Study_C\SCSA-C언어\Project11\Project11\f11.c(39,15): warning C4133: '=': 'Node *'과(와) 'Node *' 사이의 형식이 호환되지 않습니다.
+C:\STUDY\Study_C\SCSA-C언어\Project11\Project11\f11.c(55,7): warning C4133: '=': 'Node *'과(와) 'Node *' 사이의 형식이 호환되지 않습니다.
+C:\STUDY\Study_C\SCSA-C언어\Project11\Project11\f11.c(63,8): warning C4133: '=': 'Node *'과(와) 'Node *' 사이의 형식이 호환되지 않습니다.
+  Project11.vcxproj -> C:\STUDY\Study_C\SCSA-C언어\Project11\x64\Debug\Project11.exe

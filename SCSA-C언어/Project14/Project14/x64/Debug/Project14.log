@@ -1,0 +1,6 @@
+﻿  f14.c
+C:\STUDY\Study_C\SCSA-C언어\Project14\Project14\f14.c(14,9): warning C4047: '초기화 중': 'void (__cdecl *)(char *,char *)'의 간접 참조 수준이 'char *(__cdecl *)(char *,char *)'과(와) 다릅니다.
+C:\STUDY\Study_C\SCSA-C언어\Project14\Project14\f14.c(35,12): warning C4013: 'strlen'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+C:\STUDY\Study_C\SCSA-C언어\Project14\Project14\f14.c(34,9): warning C4101: 'j' :참조되지 않은 지역 변수입니다.
+C:\STUDY\Study_C\SCSA-C언어\Project14\Project14\f14.c(41,1): warning C4716: 'f2': 값을 반환해야 합니다.
+  Project14.vcxproj -> C:\STUDY\Study_C\SCSA-C언어\Project14\x64\Debug\Project14.exe

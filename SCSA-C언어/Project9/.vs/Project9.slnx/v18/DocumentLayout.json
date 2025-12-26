@@ -1,9 +1,9 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\STUDY\\C_C\u002B\u002B\\Project9\\",
+  "WorkspaceRootPath": "C:\\STUDY\\Study_C\\SCSA-C\uC5B8\uC5B4\\Project9\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F5B9B080-2371-4524-AC90-B53084C7250D}|Project9\\Project9.vcxproj|C:\\STUDY\\C_C\u002B\u002B\\Project9\\Project9\\f9.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{F5B9B080-2371-4524-AC90-B53084C7250D}|Project9\\Project9.vcxproj|C:\\STUDY\\Study_C\\SCSA-C\uC5B8\uC5B4\\Project9\\Project9\\f9.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{F5B9B080-2371-4524-AC90-B53084C7250D}|Project9\\Project9.vcxproj|solutionrelative:Project9\\f9.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
@@ -20,11 +20,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "f9.c",
-              "DocumentMoniker": "C:\\STUDY\\C_C\u002B\u002B\\Project9\\Project9\\f9.c",
+              "DocumentMoniker": "C:\\STUDY\\Study_C\\SCSA-C\uC5B8\uC5B4\\Project9\\Project9\\f9.c",
               "RelativeDocumentMoniker": "Project9\\f9.c",
-              "ToolTip": "C:\\STUDY\\C_C\u002B\u002B\\Project9\\Project9\\f9.c",
+              "ToolTip": "C:\\STUDY\\Study_C\\SCSA-C\uC5B8\uC5B4\\Project9\\Project9\\f9.c",
               "RelativeToolTip": "Project9\\f9.c",
-              "ViewState": "AgIAACoAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
               "WhenOpened": "2025-12-24T00:16:56.398Z",
               "EditorCaption": ""
