@@ -1,5 +1,2 @@
 ﻿  f19.c
-C:\STUDY\Study_C\SCSA-C언어\Project19\Project19\f19.c(27,7): warning C4133: '=': 'Node *'과(와) 'Node *' 사이의 형식이 호환되지 않습니다.
-C:\STUDY\Study_C\SCSA-C언어\Project19\Project19\f19.c(59,14): warning C4133: '=': 'Node *'과(와) 'Node *' 사이의 형식이 호환되지 않습니다.
-C:\STUDY\Study_C\SCSA-C언어\Project19\Project19\f19.c(71,7): warning C4133: '=': 'Node *'과(와) 'Node *' 사이의 형식이 호환되지 않습니다.
   Project19.vcxproj -> C:\STUDY\Study_C\SCSA-C언어\Project19\x64\Debug\Project19.exe

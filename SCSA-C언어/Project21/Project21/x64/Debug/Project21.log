@@ -1,0 +1,6 @@
+﻿  f21.c
+C:\STUDY\Study_C\SCSA-C언어\Project21\Project21\f21.c(12,5): warning C4273: 'atoi': dll 연결이 일치하지 않습니다.
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt\stdlib.h(451,62):
+      'atoi'의 이전 정의를 참조하십시오.
+  
+  Project21.vcxproj -> C:\STUDY\Study_C\SCSA-C언어\Project21\x64\Debug\Project21.exe

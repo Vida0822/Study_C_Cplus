@@ -1,0 +1,36 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\STUDY\\Study_C\\SCSA-C\uC5B8\uC5B4\\Project22\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{DF1FE40D-9FCF-4D5F-B9D3-0804060802CB}|Project22\\Project22.vcxproj|C:\\STUDY\\Study_C\\SCSA-C\uC5B8\uC5B4\\source\\ch13\\ch13_8.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ch13_8.c",
+              "DocumentMoniker": "C:\\STUDY\\Study_C\\SCSA-C\uC5B8\uC5B4\\source\\ch13\\ch13_8.c",
+              "RelativeDocumentMoniker": "..\\source\\ch13\\ch13_8.c",
+              "ToolTip": "C:\\STUDY\\Study_C\\SCSA-C\uC5B8\uC5B4\\source\\ch13\\ch13_8.c",
+              "RelativeToolTip": "..\\source\\ch13\\ch13_8.c",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvxIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2025-12-26T02:10:36.194Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

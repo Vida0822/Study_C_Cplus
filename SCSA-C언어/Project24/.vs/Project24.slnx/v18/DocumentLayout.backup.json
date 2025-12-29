@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\STUDY\\Study_C\\SCSA-C\uC5B8\uC5B4\\Project24\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{CB195AA1-93C9-4490-8011-645D692593F1}|Project24\\Project24.vcxproj|C:\\STUDY\\Study_C\\SCSA-C\uC5B8\uC5B4\\Project24\\Project24\\f23.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{CB195AA1-93C9-4490-8011-645D692593F1}|Project24\\Project24.vcxproj|solutionrelative:Project24\\f23.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "f23.c",
+              "DocumentMoniker": "C:\\STUDY\\Study_C\\SCSA-C\uC5B8\uC5B4\\Project24\\Project24\\f23.c",
+              "RelativeDocumentMoniker": "Project24\\f23.c",
+              "ToolTip": "C:\\STUDY\\Study_C\\SCSA-C\uC5B8\uC5B4\\Project24\\Project24\\f23.c",
+              "RelativeToolTip": "Project24\\f23.c",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2025-12-26T03:09:26.698Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

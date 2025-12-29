@@ -1,0 +1,207 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\STUDY\\Study_C\\SCSA-C\uC5B8\uC5B4\\source\\ch13\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\STUDY\\Study_C\\SCSA-C\uC5B8\uC5B4\\source\\ch13\\ch13_7.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ch13_7.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\STUDY\\Study_C\\SCSA-C\uC5B8\uC5B4\\source\\ch13\\ch13_15.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ch13_15.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\STUDY\\Study_C\\SCSA-C\uC5B8\uC5B4\\source\\ch13\\ch13_23.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ch13_23.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\STUDY\\Study_C\\SCSA-C\uC5B8\uC5B4\\source\\ch13\\ch13_9.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ch13_9.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\STUDY\\Study_C\\SCSA-C\uC5B8\uC5B4\\source\\ch13\\ch13_14.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ch13_14.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\STUDY\\Study_C\\SCSA-C\uC5B8\uC5B4\\source\\ch13\\ch13_6.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ch13_6.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\STUDY\\Study_C\\SCSA-C\uC5B8\uC5B4\\source\\ch13\\ch13_4.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ch13_4.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\STUDY\\Study_C\\SCSA-C\uC5B8\uC5B4\\source\\ch13\\ch13_8.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ch13_8.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\STUDY\\Study_C\\SCSA-C\uC5B8\uC5B4\\source\\ch13\\ch13_3.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ch13_3.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\STUDY\\Study_C\\SCSA-C\uC5B8\uC5B4\\source\\ch13\\ch13_2.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ch13_2.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\STUDY\\Study_C\\SCSA-C\uC5B8\uC5B4\\source\\ch13\\ch13_1.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ch13_1.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ch13_15.c",
+              "DocumentMoniker": "C:\\STUDY\\Study_C\\SCSA-C\uC5B8\uC5B4\\source\\ch13\\ch13_15.c",
+              "RelativeDocumentMoniker": "ch13_15.c",
+              "ToolTip": "C:\\STUDY\\Study_C\\SCSA-C\uC5B8\uC5B4\\source\\ch13\\ch13_15.c",
+              "RelativeToolTip": "ch13_15.c",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2025-12-26T01:55:34.58Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ch13_23.c",
+              "DocumentMoniker": "C:\\STUDY\\Study_C\\SCSA-C\uC5B8\uC5B4\\source\\ch13\\ch13_23.c",
+              "RelativeDocumentMoniker": "ch13_23.c",
+              "ToolTip": "C:\\STUDY\\Study_C\\SCSA-C\uC5B8\uC5B4\\source\\ch13\\ch13_23.c",
+              "RelativeToolTip": "ch13_23.c",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2025-12-26T01:55:33.901Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ch13_9.c",
+              "DocumentMoniker": "C:\\STUDY\\Study_C\\SCSA-C\uC5B8\uC5B4\\source\\ch13\\ch13_9.c",
+              "RelativeDocumentMoniker": "ch13_9.c",
+              "ToolTip": "C:\\STUDY\\Study_C\\SCSA-C\uC5B8\uC5B4\\source\\ch13\\ch13_9.c",
+              "RelativeToolTip": "ch13_9.c",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2025-12-26T01:55:33.286Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ch13_14.c",
+              "DocumentMoniker": "C:\\STUDY\\Study_C\\SCSA-C\uC5B8\uC5B4\\source\\ch13\\ch13_14.c",
+              "RelativeDocumentMoniker": "ch13_14.c",
+              "ToolTip": "C:\\STUDY\\Study_C\\SCSA-C\uC5B8\uC5B4\\source\\ch13\\ch13_14.c",
+              "RelativeToolTip": "ch13_14.c",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvwgAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2025-12-26T01:54:52.549Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ch13_8.c",
+              "DocumentMoniker": "C:\\STUDY\\Study_C\\SCSA-C\uC5B8\uC5B4\\source\\ch13\\ch13_8.c",
+              "RelativeDocumentMoniker": "ch13_8.c",
+              "ToolTip": "C:\\STUDY\\Study_C\\SCSA-C\uC5B8\uC5B4\\source\\ch13\\ch13_8.c",
+              "RelativeToolTip": "ch13_8.c",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2025-12-26T01:44:05Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ch13_6.c",
+              "DocumentMoniker": "C:\\STUDY\\Study_C\\SCSA-C\uC5B8\uC5B4\\source\\ch13\\ch13_6.c",
+              "RelativeDocumentMoniker": "ch13_6.c",
+              "ToolTip": "C:\\STUDY\\Study_C\\SCSA-C\uC5B8\uC5B4\\source\\ch13\\ch13_6.c",
+              "RelativeToolTip": "ch13_6.c",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvwsAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2025-12-26T01:35:58.249Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ch13_7.c",
+              "DocumentMoniker": "C:\\STUDY\\Study_C\\SCSA-C\uC5B8\uC5B4\\source\\ch13\\ch13_7.c",
+              "RelativeDocumentMoniker": "ch13_7.c",
+              "ToolTip": "C:\\STUDY\\Study_C\\SCSA-C\uC5B8\uC5B4\\source\\ch13\\ch13_7.c",
+              "RelativeToolTip": "ch13_7.c",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2025-12-26T01:35:56.14Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ch13_4.c",
+              "DocumentMoniker": "C:\\STUDY\\Study_C\\SCSA-C\uC5B8\uC5B4\\source\\ch13\\ch13_4.c",
+              "RelativeDocumentMoniker": "ch13_4.c",
+              "ToolTip": "C:\\STUDY\\Study_C\\SCSA-C\uC5B8\uC5B4\\source\\ch13\\ch13_4.c",
+              "RelativeToolTip": "ch13_4.c",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvwsAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2025-12-26T01:33:35.949Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ch13_3.c",
+              "DocumentMoniker": "C:\\STUDY\\Study_C\\SCSA-C\uC5B8\uC5B4\\source\\ch13\\ch13_3.c",
+              "RelativeDocumentMoniker": "ch13_3.c",
+              "ToolTip": "C:\\STUDY\\Study_C\\SCSA-C\uC5B8\uC5B4\\source\\ch13\\ch13_3.c",
+              "RelativeToolTip": "ch13_3.c",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2025-12-26T01:31:13.74Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ch13_2.c",
+              "DocumentMoniker": "C:\\STUDY\\Study_C\\SCSA-C\uC5B8\uC5B4\\source\\ch13\\ch13_2.c",
+              "RelativeDocumentMoniker": "ch13_2.c",
+              "ToolTip": "C:\\STUDY\\Study_C\\SCSA-C\uC5B8\uC5B4\\source\\ch13\\ch13_2.c",
+              "RelativeToolTip": "ch13_2.c",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2025-12-26T01:30:42.975Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ch13_1.c",
+              "DocumentMoniker": "C:\\STUDY\\Study_C\\SCSA-C\uC5B8\uC5B4\\source\\ch13\\ch13_1.c",
+              "RelativeDocumentMoniker": "ch13_1.c",
+              "ToolTip": "C:\\STUDY\\Study_C\\SCSA-C\uC5B8\uC5B4\\source\\ch13\\ch13_1.c",
+              "RelativeToolTip": "ch13_1.c",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2025-12-26T01:29:11.545Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

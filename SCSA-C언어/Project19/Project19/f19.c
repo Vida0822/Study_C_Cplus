@@ -1,134 +1,258 @@
-#include<stdio.h>
-#include<stdlib.h>
-#include<string.h>
-#pragma warning(disable:4996) 
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#pragma warning(disable:4996)
 
-// 링크드 리스트 자료구조로 주소록 
-// 주소록 (이름, 전화, 주소), 이름 중복안됨 (문자열 비교: strcmp(si, s2): 같으면 0 , 다르면 양수/음수)  
-// 추가, 검색 (이름으로) , 전체 목록 출력, 수정, 삭제 
+// 주소록 노드 구조체
+typedef struct Node {
+    char name[20];
+    char tel[20];
+    char address[20];
+    struct Node* next;
+} Node;
 
-typedef struct{
-	char name[20]; 
-	char tel[20]; 
-	char address[20];
-	struct Node* next; 
-}Node; 
+Node* head = NULL;
+Node* tail = NULL;
 
-Node* head = NULL, * tail = NULL; 
-
-// 검색 
+/* 이름으로 검색 */
 Node* searchByName(char* name) {
-	// 찾으면 노드의 주소를, 못찾으면 null 반환 
-	Node* bmp = head; 
-	while (bmp != NULL) {
-		if (!strcmp(name, bmp->name)) {
-			return bmp; 
-		} 
-		bmp = bmp->next;  // 전진
-	}
-	return NULL; 
+    Node* cur = head;
+    while (cur != NULL) {
+        if (!strcmp(name, cur->name))
+            return cur;
+        cur = cur->next;
+    }
+    return NULL;
 }
 
-// 새 노드 생성 
+/* 새 노드 생성 */
 Node* makeNode() {
-	Node* bmp = (Node*)malloc(sizeof(Node));
-	printf("name: ");
-	scanf("%s", bmp->name);
+    Node* node = (Node*)malloc(sizeof(Node));
 
-	if (searchByName(bmp->name) != NULL) {
-		printf("이름 중복됨");
-		return NULL;
-	}
+    printf("name: ");
+    scanf("%s", node->name);
 
-	printf("tel: ");
-	scanf("%s", bmp->tel);
-	printf("address: ");
-	scanf("%s", bmp->address);
+    if (searchByName(node->name) != NULL) {
+        printf("이름이 중복됩니다.\n");
+        free(node);
+        return NULL;
+    }
 
-	return bmp;
+    printf("tel: ");
+    scanf("%s", node->tel);
+
+    printf("address: ");
+    scanf("%s", node->address);
+
+    node->next = NULL;
+    return node;
 }
 
-
-// 링크드 리스트 끝에 노드 추가 
-void addNode(Node* bmp) {
-	if (head == NULL) {
-		head = bmp;
-		tail = bmp;
-	}
-	else {
-		tail->next = bmp;
-		tail = bmp;
-	}
-	bmp->next = NULL;
+/* 노드 추가 */
+void addNode(Node* node) {
+    if (head == NULL) {
+        head = node;
+        tail = node;
+    }
+    else {
+        tail->next = node;
+        tail = node;
+    }
 }
 
-
-// 링크드 리스트 모든 노드 출력
+/* 전체 출력 */
 void listPrint() {
-	Node* bmp = head; 
-	while (bmp != NULL) {
-		printf("name: %s, tel:%s, address:%s \n", bmp->name, bmp->tel, bmp->address); 
-		bmp = bmp->next; 
-	}
+    Node* cur = head;
+    if (cur == NULL) {
+        printf("주소록이 비어 있습니다.\n");
+        return;
+    }
+
+    while (cur != NULL) {
+        printf("name: %s, tel: %s, address: %s\n",
+            cur->name, cur->tel, cur->address);
+        cur = cur->next;
+    }
 }
 
-// 노드 수정 
-void updateNode(Node* bmp, char *newName) {
-	//bmp -> name = newName; 
+/* 노드 수정 */
+void updateNode(Node* node) {
+    int sel;
+
+    if (node == NULL) {
+        printf("해당 이름이 존재하지 않습니다.\n");
+        return;
+    }
+
+    printf("1. 이름  2. 전화번호  3. 주소\n");
+    printf("수정할 항목 선택: ");
+    scanf("%d", &sel);
+
+    if (sel == 1) {
+        char newName[20];
+        printf("새 이름: ");
+        scanf("%s", newName);
+
+        if (searchByName(newName) != NULL) {
+            printf("이미 존재하는 이름입니다.\n");
+            return;
+        }
+        strcpy(node->name, newName);
+    }
+    else if (sel == 2) {
+        printf("새 전화번호: ");
+        scanf("%s", node->tel);
+    }
+    else if (sel == 3) {
+        printf("새 주소: ");
+        scanf("%s", node->address);
+    }
+    else {
+        printf("잘못된 선택입니다.\n");
+    }
 }
 
-// 노드 삭제 
+/* 노드 삭제 */
 void deleteNode() {
+    char name[20];
+    Node* cur = head;
+    Node* prev = NULL;
 
+    printf("삭제할 이름: ");
+    scanf("%s", name);
+
+    while (cur != NULL) {
+        if (!strcmp(cur->name, name)) {
+
+            // 첫 노드 삭제
+            if (prev == NULL)
+                head = cur->next;
+            else
+                prev->next = cur->next;
+
+            // 마지막 노드 삭제
+            if (cur == tail)
+                tail = prev;
+
+            free(cur);
+            printf("삭제 완료\n");
+            return;
+        }
+        prev = cur;
+        cur = cur->next;
+    }
+
+    printf("해당 이름이 존재하지 않습니다.\n");
 }
 
 
-void main() {
-	int x, flag=1; 
-	Node* bmp = NULL; 
-	while (flag) {
-		printf("1. 추가  2. 검색  3. 수정  4. 삭제  5. 목록 출력  6. 종료 \n"); 
-		scanf("%d", &x);
-		switch (x) {
-		case 1: 
-			bmp = makeNode(); 
-			if (bmp != NULL) { // 이름 중복 
-				addNode(bmp); 
-			}
-			break; 
-		case 2: {
-			char name[20]; // 선언에는 레이블을 사용할 수 없습니다 -> case 실행문 중괄호로 묶어주기 
-			printf("검색할 이름: ");
-			scanf("%s", name);
-			bmp = searchByName(name);
-			printf("name: %s, tel:%s, address:%s \n", bmp->name, bmp->tel, bmp->address);
-		}
-		case 3: {
-			char name[20], newName[20];
-			printf("수정할 이름:");
-			scanf("%s", name);
-			
-			printf("어떤 값으로 수정할까요? : ");
-			scanf("%s", newName); 
-		
-			bmp = searchByName(name);
-			updateNode(bmp , newName);
-			break;
-		}
-		case 4:
-			deleteNode(); 
-			break;
-		case 5:
-			listPrint(); 
-			break;
-		case 6:
-			flag = 0; 
-			break;
-		}
-	}
+/*
+파일 읽기
+: 프로그램 시작 시 파일 내용 읽어 리스트에 저장
+*/
+void readFile() {
+    FILE* fp = fopen("data.dat", "r");
+    if (fp == NULL) {
+        printf("파일 읽기 실패 \n");
+        return; 
+    }
+
+    Node* bmp = NULL;  
+    while (1) {
+        bmp = (Node*)malloc(sizeof(Node)); // 노드 생성 
+        if (fread(bmp, sizeof(Node), 1, fp) < 1) { // 노드 한개 만큼 fp에서 읽어와라 ( < 1: 할당받은게 없음 (읽은 데이터 X)) 
+            free(bmp); 
+            break; 
+        }
+        else {
+            addNode(bmp); 
+        } // if
+    } // while 
+    fclose(fp); 
+} // readFile 
+
+
+/*
+파일 저장 
+: 프로그램 종료 시 리스트 내용 파일에 저장 
+*/
+void writeFile() {
+
+    FILE* fp = fopen("data.dat", "w");
+    if (fp == NULL) {
+        printf("파일 열기 실패 \n");
+        return;
+    }
+
+    Node* bmp = head; 
+    while (bmp != NULL) {
+        head = bmp->next;
+        fwrite(bmp, sizeof(Node), 1, fp); // 노드 한개 만큼 fp에 써라
+        printf("name:%s 메모리 해제\n", bmp->name);
+        free(bmp); 
+        //bmp = bmp->next; // bmp를 해제했는데 해제한 bmp를 참조해서 발생하는 오류 
+        bmp = head; // 미리 받아둔 head 를 참조해야함 
+    }
+    fclose(fp);
 }
 
 
+int main() {
+    int menu;
+    Node* node = NULL;
+    readFile(); 
 
+    while (1) {
+        printf("\n1. 추가  2. 검색  3. 수정  4. 삭제  5. 목록 출력  6. 종료\n");
+        printf("선택: ");
+        scanf("%d", &menu);
 
+        switch (menu) {
+        case 1:
+            node = makeNode();
+            if (node != NULL)
+                addNode(node);
+            break;
 
+        case 2: {
+            char name[20];
+            printf("검색할 이름: ");
+            scanf("%s", name);
+
+            node = searchByName(name);
+            if (node != NULL)
+                printf("name: %s, tel: %s, address: %s\n",
+                    node->name, node->tel, node->address);
+            else
+                printf("검색 결과 없음\n");
+            break;
+        }
+
+        case 3: {
+            char name[20];
+            printf("수정할 이름: ");
+            scanf("%s", name);
+
+            node = searchByName(name);
+            updateNode(node);
+            break;
+        }
+
+        case 4:
+            deleteNode();
+            break;
+
+        case 5:
+            listPrint();
+            break;
+
+        case 6:
+            printf("프로그램 종료\n");
+            writeFile(); 
+            return 0;
+
+        default:
+            printf("잘못된 선택입니다.\n");
+        }
+    }
+}
