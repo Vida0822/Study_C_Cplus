@@ -1,0 +1,3 @@
+﻿  Main5.c
+C:\STUDY\Study_C\SCSA-C언어\CLab\CLab\Main5.c(15,5): warning C4013: 'strcpy'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+  CLab.vcxproj -> C:\STUDY\Study_C\SCSA-C언어\CLab\x64\Debug\CLab.exe
