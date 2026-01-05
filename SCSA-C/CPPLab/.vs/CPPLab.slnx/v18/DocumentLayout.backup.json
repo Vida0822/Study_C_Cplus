@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\STUDY\\Study_C\\SCSA-C\uC5B8\uC5B4\\CPPLab\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F8498301-64F4-4E67-947D-7B6E1F0A2227}|CPPLab\\CPPLab.vcxproj|C:\\STUDY\\Study_C\\SCSA-C\uC5B8\uC5B4\\CPPLab\\CPPLab\\HelloCpp.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{F8498301-64F4-4E67-947D-7B6E1F0A2227}|CPPLab\\CPPLab.vcxproj|solutionrelative:CPPLab\\HelloCpp.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "HelloCpp.cpp",
+              "DocumentMoniker": "C:\\STUDY\\Study_C\\SCSA-C\uC5B8\uC5B4\\CPPLab\\CPPLab\\HelloCpp.cpp",
+              "RelativeDocumentMoniker": "CPPLab\\HelloCpp.cpp",
+              "ToolTip": "C:\\STUDY\\Study_C\\SCSA-C\uC5B8\uC5B4\\CPPLab\\CPPLab\\HelloCpp.cpp",
+              "RelativeToolTip": "CPPLab\\HelloCpp.cpp",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAoAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-12-31T00:19:12.741Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
