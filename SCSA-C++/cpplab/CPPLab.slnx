@@ -8,5 +8,6 @@
   <Project Path="Chap03_Chap04/Chap03_Chap04.vcxproj" Id="80ef216d-2c7d-4466-a26f-58f87fe64e36" />
   <Project Path="Chap05/Chap05.vcxproj" Id="ce1b2c69-5d19-44d9-b402-8aa76aeb2f71" />
   <Project Path="Chap06/Chap06.vcxproj" Id="ff28ee9c-a873-43a8-87b2-d28782ea98e9" />
-  <Project Path="Chap07/Chap07.vcxproj" Id="f10dee3f-a1d6-4993-802e-bb45a5780278" />
+  <Project Path="Chap08/Chap08.vcxproj" Id="93b5f071-f814-4c2c-8470-38f4e6c6267c" />
+  <Project Path="Chap7/Chap7.vcxproj" Id="6eeae807-74ec-472f-b3ec-2a6475c0f247" />
 </Solution>

@@ -18,12 +18,18 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\Chap07\Chap07\1.Inheritence.cpp" />
+    <ClCompile Include="..\Chap07\Chap07\2.DestModel.cpp" />
+    <ClCompile Include="..\Chap07\Chap07\3.is-a_has-a.cpp" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>18.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{f10dee3f-a1d6-4993-802e-bb45a5780278}</ProjectGuid>
-    <RootNamespace>Chap07</RootNamespace>
+    <ProjectGuid>{6eeae807-74ec-472f-b3ec-2a6475c0f247}</ProjectGuid>
+    <RootNamespace>Chap7</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>Chap07</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -126,9 +132,6 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
     </Link>
   </ItemDefinitionGroup>
-  <ItemGroup>
-    <ClCompile Include="1.Inheritance.cpp" />
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

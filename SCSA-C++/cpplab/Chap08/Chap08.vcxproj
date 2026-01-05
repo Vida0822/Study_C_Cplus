@@ -21,9 +21,10 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>18.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{48408135-ec4e-49b9-a0c7-65e0570aca43}</ProjectGuid>
-    <RootNamespace>Chap02</RootNamespace>
+    <ProjectGuid>{93b5f071-f814-4c2c-8470-38f4e6c6267c}</ProjectGuid>
+    <RootNamespace>Chap08</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>Chap08_Chap09</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -102,7 +103,7 @@
     <ClCompile>
       <WarningLevel>Level3</WarningLevel>
       <SDLCheck>true</SDLCheck>
-      <PreprocessorDefinitions>_DEBUG;_CONSOLE;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
       <LanguageStandard>stdcpp20</LanguageStandard>
     </ClCompile>
@@ -127,11 +128,16 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="1.Bool.cpp" />
-    <ClCompile Include="2.ReferenceType.cpp" />
-    <ClCompile Include="3.ReferenceSwap.cpp" />
-    <ClCompile Include="4.MemMalFree.cpp" />
-    <ClCompile Include="5.new_delete.cpp" />
+    <ClCompile Include="2.Override.cpp" />
+    <ClCompile Include="3.VirtualFunction.cpp" />
+    <ClCompile Include="4.PureVirtualFunction.cpp" />
+    <ClCompile Include="5.VirtualDestructor.cpp" />
+    <ClCompile Include="6.Polymorph_Example.cpp" />
+    <ClCompile Include="7.MultiInheritence.cpp" />
+    <ClCompile Include="Person.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Person.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

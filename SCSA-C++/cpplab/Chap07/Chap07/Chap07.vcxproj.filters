@@ -15,7 +15,13 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="1.Inheritance.cpp">
+    <ClCompile Include="1.Inheritence.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="2.DestModel.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="3.is-a_has-a.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
