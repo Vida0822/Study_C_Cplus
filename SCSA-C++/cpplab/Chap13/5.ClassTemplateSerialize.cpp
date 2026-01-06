@@ -1,44 +1,42 @@
-//
-//#include <iostream>
-//
+ï»¿//#include <iostream>
+//#include <cstring>
 //using namespace std;
 //
-//template<class T> // class = typename 
+//template<typename T>
 //class Point {
-//private:
-//    T data; 
-//public : 
-//   Point(T data):data(data){}
-//   void print() const {
-//       cout << data << endl;
-//   }
+//private :
+//    T data;
+//public:
+//    Point(T data) : data(data) {}
+//    void print() const {
+//        cout << "T print" << endl;
+//        cout << data << endl;
+//    }
 //};
-//
-//template<> 
-//class Point<char*> {
+// 
+// í…œí”Œë¦¿ íŠ¹ìˆ˜í™”
+//template<>
+//class Point<const char*> {
 //private:
 //    char* data;
 //public:
-//    Point(const char* data) :data(data) {
+//    Point(const char* data)  {
 //        this->data = new char[strlen(data) + 1];
-//        strcpy(this->data, data); 
+//        strcpy(this->data, data);
 //    }
-//    ~Point() { // new ·Î µ¿ÀûÇÒ´ç ÇØÁÖ¾úÀ¸¹Ç·Î ¼Ò¸êÀÚ·Î ¸Þ¸ð¸® ÇØÁ¦ ÇØÁà¾ßÇÔ 
-//        delete[] this->data; 
+//    ~Point() {
+//        delete[] this->data;
 //    }
 //    void print() const {
-//        cout << "char& print" << endl;
+//        cout << "char* print" << endl;
 //        cout << data << endl;
 //    }
 //};
 //
-//
 //int main() {
-//    Point p(3); 
-//    p.print(); 
-//
-//    Point p2("hello");
-//    p2.print();
-//
+//    Point<int> p1(3);
+//    p1.print();
+//    Point<const char*> p("hello");
+//    p.print();
 //    return 0;
 //}
