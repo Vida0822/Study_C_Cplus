@@ -13,5 +13,6 @@
   <Project Path="Chap12/Chap12.vcxproj" Id="2c9f5fb9-68f3-449f-94f5-b31e7854492e" />
   <Project Path="Chap13/Chap13.vcxproj" Id="59271148-f59d-4214-a772-61c5f28046e3" />
   <Project Path="Chap15/Chap15.vcxproj" Id="f7867c82-153a-49da-bde9-32430432eda0" />
+  <Project Path="Chap16/Chap16.vcxproj" Id="443a4a40-2058-4fe7-a309-605c0889bb80" />
   <Project Path="Chap7/Chap7.vcxproj" Id="6eeae807-74ec-472f-b3ec-2a6475c0f247" />
 </Solution>
